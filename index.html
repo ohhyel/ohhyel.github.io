@@ -14,6 +14,7 @@
         <link rel="shortcut icon" href="images/favicon.ico">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
         <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="assets/css/fancybox/jquery.fancybox.css" />
 	</head>
 	<body>
 
@@ -34,9 +35,6 @@
 				</nav>
 				<footer>
 					<ul class="icons">
-						<!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
-						<!--<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>-->
-						<!--<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>-->
 						<li><a href="https://github.com/ohhyel" class="icon fa-github"><span class="label">Github</span></a></li>
 						<li><a href="mailto:hyerin0421@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						<li><a href="http://5hyel.tistory.com/" class="icon fa-home"><span class="label">Blog</span></a></li>
@@ -90,7 +88,14 @@
 									<p></p>
 									<div class="features">
 										<article>
-											<a href="#" class="image"><img src="images/bestimage.png" alt="" /></a>
+											<a class="fancybox image" rel="bestimageGallery" href="images/bestimage.png">
+												<img src="images/bestimage.png" alt="" />
+											</a>
+                                            <div class="hidden">
+                                                <a class="fancybox" rel="bestimageGallery" title="m-Teresa 2" href="images/bestimage_mypage.png">
+                                                    <img src="images/bestimage_mypage.png" alt=""/>
+                                                </a>
+                                            </div>
 											<div class="inner">
 												<h4>[WEB] BEST Image</h4>
                                                 <h6><code>Role: Front End Developer</code></h6>
@@ -102,7 +107,9 @@
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/sandwichadmin.png" alt="" /></a>
+                                            <a class="fancybox image" rel="sandwichadminGallery" href="images/sandwichadmin.png">
+                                                <img src="images/sandwichadmin.png" alt="" />
+                                            </a>
 											<div class="inner">
 												<h4>[Web] Sandwich Admin</h4>
                                                 <h6><code>Role: Full stack Developer </code></h6>
@@ -115,8 +122,16 @@
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/mteresa.png" alt="" /></a>
-											<div class="inner">
+                                            <a class="fancybox image"  rel="mteresaGallery" title="m-Teresa Main" href="images/mteresa.png">
+                                                <img src="images/mteresa.png" alt="" />
+                                            </a>
+                                            <div class="hidden">
+                                                <a class="fancybox" rel="mteresaGallery" title="m-Teresa 2" href="images/mteresa_old.png">
+                                                    <img src="images/mteresa_old.png" alt=""/>
+                                                </a>
+                                            </div>
+
+                                            <div class="inner">
 												<h4>[Android] m-Teresa</h4>
                                                 <h6><code>Role: Android Developer </code></h6>
                                                 <ul>
@@ -129,7 +144,20 @@
 											</div>
 										</article>
                                         <article>
-                                            <a href="#" class="image"><img src="images/wteresa.png" alt="" /></a>
+                                            <a class="fancybox image" rel="wteresaGallery" href="images/wteresa.png">
+                                                <img src="images/wteresa.png" alt="" />
+                                            </a>
+                                            <div class="hidden">
+                                                <a class="fancybox" rel="wteresaGallery" title="w-Teresa report." href="images/wteresa_report.png">
+                                                    <img src="images/wteresa_report.png" alt=""/>
+                                                </a>
+                                                <a class="fancybox" rel="wteresaGallery" title="w-Teresa report." href="images/wteresa_patients.png">
+                                                    <img src="images/wteresa_patients.png" alt=""/>
+                                                </a>
+                                                <a class="fancybox" rel="wteresaGallery" title="w-Teresa report." href="images/wteresa_vertical.png">
+                                                    <img src="images/wteresa_vertical.png" alt=""/>
+                                                </a>
+                                            </div>
                                             <div class="inner">
                                                 <h4>[Web] w-Teresa</h4>
                                                 <h6><code>Role: Front End Developer </code></h6>
@@ -141,7 +169,9 @@
                                             </div>
                                         </article>
                                         <article>
-                                            <a href="#" class="image"><img src="images/banner.jpg" alt="" /></a>
+                                            <a class="fancybox image" rel="group" href="images/banner.jpg">
+                                                <img src="images/banner.jpg" alt="" />
+                                            </a>
                                             <div class="inner">
                                                 <h4>[Server] IRM api-v2 (prototype)</h4>
                                                 <h6><code>Role: Back End Developer </code></h6>
@@ -209,6 +239,6 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/fancybox/jquery.fancybox.pack.js"></script>
 	</body>
 </html>

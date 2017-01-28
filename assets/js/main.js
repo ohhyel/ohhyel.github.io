@@ -3,10 +3,16 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
 (function($) {
 
-	skel.breakpoints({
+    $(document).ready(function() {
+        $(".fancybox")
+            .fancybox({
+                padding : 0
+            });
+    });
+
+    skel.breakpoints({
 		xlarge: '(max-width: 1680px)',
 		large: '(max-width: 1280px)',
 		medium: '(max-width: 1024px)',
@@ -15,7 +21,6 @@
 	});
 
 	$(function() {
-
 		var $body = $('body'),
 			$header = $('#header'),
 			$nav = $('#nav'), $nav_a = $nav.find('a'),
@@ -109,5 +114,4 @@
 						.css('transition', 'none');
 
 	});
-
 })(jQuery);
