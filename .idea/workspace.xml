@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2003f7b1-9725-4a70-9343-70a61675da66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bestimage_admin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bestimage_manager.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="94" column="116" lean-forward="false" selection-start-line="94" selection-start-column="116" selection-end-line="94" selection-end-column="116" />
+            <state relative-caret-position="510">
+              <caret line="107" column="52" lean-forward="true" selection-start-line="107" selection-start-column="52" selection-end-line="107" selection-end-column="52" />
               <folding>
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -330,7 +327,7 @@
       <workItem from="1485417260670" duration="11781000" />
       <workItem from="1485439249496" duration="1132000" />
       <workItem from="1485579646770" duration="112000" />
-      <workItem from="1485580568678" duration="2945000" />
+      <workItem from="1485580568678" duration="3037000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1485417589156</created>
@@ -444,11 +441,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485584574605</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="-bestimage">
+      <created>1485586428254</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1485586428254</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15970000" />
+    <option name="totallyTimeSpent" value="16062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -509,7 +513,8 @@
     <MESSAGE value="- favicon added" />
     <MESSAGE value="- favicon shortcut" />
     <MESSAGE value="- image popup (fancy popup)" />
-    <option name="LAST_COMMIT_MESSAGE" value="- image popup (fancy popup)" />
+    <MESSAGE value="-bestimage" />
+    <option name="LAST_COMMIT_MESSAGE" value="-bestimage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -633,8 +638,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="94" column="116" lean-forward="false" selection-start-line="94" selection-start-column="116" selection-end-line="94" selection-end-column="116" />
+        <state relative-caret-position="510">
+          <caret line="107" column="52" lean-forward="true" selection-start-line="107" selection-start-column="52" selection-end-line="107" selection-end-column="52" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
