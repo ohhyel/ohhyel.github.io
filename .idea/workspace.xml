@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2003f7b1-9725-4a70-9343-70a61675da66" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -327,7 +326,7 @@
       <workItem from="1485580568678" duration="3076000" />
       <workItem from="1485586798615" duration="1802000" />
       <workItem from="1486903740228" duration="7000" />
-      <workItem from="1486903783761" duration="1418000" />
+      <workItem from="1486903783761" duration="1629000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1485417589156</created>
@@ -476,11 +475,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486904405785</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="- Text Changed">
+      <created>1486905394837</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1486905394837</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19328000" />
+    <option name="totallyTimeSpent" value="19539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -545,7 +551,8 @@
     <MESSAGE value="-portfolio image" />
     <MESSAGE value="-temp" />
     <MESSAGE value="-image changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="-image changed" />
+    <MESSAGE value="- Text Changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Text Changed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
